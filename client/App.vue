@@ -2,6 +2,9 @@
   <div>
     <p>现在时间：{{itme}}</p>
     <button @click="getItem()">获取现在时间</button>
+    <router-link to="/" >index</router-link>
+    <router-link to="/user" >user</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
