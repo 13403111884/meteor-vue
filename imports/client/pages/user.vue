@@ -1,8 +1,12 @@
 <template>
   <div>
     <h1>user</h1>
-    名字： {{userInfo.userName}}
-    年龄： {{userInfo.userAge}}
+    <p>
+      名字： {{userInfo.userName}}
+    </p>
+    <p>
+      年龄： {{userInfo.userAge}}
+    </p>
   </div>
 </template>
 

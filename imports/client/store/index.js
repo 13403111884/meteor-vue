@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-import user from '/client/store/modules/user'
+import user from './modules/user'
 
 const store = new Vuex.Store({
   state: {},

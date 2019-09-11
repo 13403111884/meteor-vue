@@ -1,8 +1,12 @@
-import { Meteor } from 'meteor/meteor'
+// import { Meteor } from 'meteor/meteor'
 import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import VueMeteorTracker from 'vue-meteor-tracker'
+import router from './../imports/client/router'
+import store from './../imports/client/store'
+
+Vue.use(VueMeteorTracker)
+
+import App from './../imports/client/App.vue'
 
 Meteor.startup(() => {
   new Vue({
