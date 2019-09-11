@@ -3,7 +3,7 @@ import Vue from 'vue'
 import VueMeteorTracker from 'vue-meteor-tracker'
 import router from './../imports/client/router'
 import store from './../imports/client/store'
-import ConfigUI from './../imports/configUI'
+import ConfigUI from './configUI'
 
 import App from './../imports/client/App.vue'
 
