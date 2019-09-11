@@ -20,9 +20,6 @@ export default {
 </script>
 
 <style lang="stylus">
-div
-  color red
-
 #app
   a
     font-size 36px

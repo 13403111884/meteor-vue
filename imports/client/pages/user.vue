@@ -7,13 +7,16 @@
     <p>
       年龄： {{userInfo.userAge}}
     </p>
+    <QRadio v-model="option" val="opt1" label="Option 1" />
   </div>
 </template>
 
 <script>
 export default {
   data () {
-    return {}
+    return {
+      option: ''
+    }
   },
   mounted () {
     this.init()
