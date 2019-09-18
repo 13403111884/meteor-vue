@@ -1,5 +1,9 @@
 {
-  "name": "meteor-vue",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "license": "{{license}}",
   "private": true,
   "scripts": {
     "start": "meteor run",
